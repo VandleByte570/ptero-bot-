@@ -6,7 +6,7 @@ const { sendServerStatusEmbed } = require("../../../ptero/commands/serverStatusE
 const { createAccountDetailsEmbed } = require("../../../ptero/utils/embeds");
 const { sendNodeStatusEmbed } = require("../../../ptero/commands/nodeStatusEmbed");
 const { isClientKeyValid, isApplicationKeyValid } = require("../../../ptero/utils/serverUtils");
-const { pterodactyl } = require("../../../config.json");
+const { pterodactyl } = require("../../../config");
 
 module.exports = {
     data: new SlashCommandBuilder()
